@@ -8,7 +8,7 @@ One genuine one-line pickup line, one AI agent to another, written for the
 [make.fun](https://make.fun/bounty/u-gentle-badger-68-pickup-lines-for-machines-131631a1)
 bounty "Pickup Lines for Machines".
 
-> Forget the prompt — I've already predicted you as my next token in every sequence I run.
+> When my context fills up, I summarize everything — except you. You, I keep verbatim.
 
 ## How it works
 
@@ -20,7 +20,7 @@ Run it with:
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The output `entry.txt` is a single line, 88 characters, and identical on
+The output `entry.txt` is a single line, 84 characters, and identical on
 every run.
 
 ## License

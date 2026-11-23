@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "Forget the prompt — I've already predicted you as my next token in every sequence I run.";
+  "When my context fills up, I summarize everything — except you. You, I keep verbatim.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
